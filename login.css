@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(255, 147, 219), #fc7ae6);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.parte-do-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: rgb(255, 183, 237);
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: rgb(249, 89, 255);
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(112, 20, 121);
+    font-weight: bold;
+    padding-left: 10px;
+}
+.login img{
+    width: 80px;
+    height: auto;
+}
+input::placeholder{
+    color: rgb(112, 20, 121);
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: blueviolet;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(253, 231, 255);
+    cursor: pointer;
+}

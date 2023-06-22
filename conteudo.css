@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'donuts';
+    src: url('fonte/Candyshop.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: linear-gradient(to bottom, rgb(255, 147, 219), #fc7ae6);
+}
+main{
+    margin: auto;
+    display: block;
+    margin-top: -21px;
+    background-color: #ffd9fc;
+    width: 900px;
+    border-radius: 5px;
+}
+.tema-principal{
+    font-family: 'donuts';
+    color: rgb(255, 139, 193);
+    padding-left: 30px;
+}
+main > section{
+    text-indent: 30px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-family: 'idroid';
+    background-color: #f0b8fca6;
+
+    margin-left: 20px;
+    margin-right: 130px;
+    padding-left: 20px;
+}
+img{
+    display:flex ;
+    margin: auto;
+}
+footer{
+    background-color: #310033;
+    color: rgb(248, 215, 255);
+    text-align: center;
+    padding: 5px;
+    margin: -10px;
+}
+
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+.nome_do_footer{
+    text-decoration: none;
+    color: rgb(204, 1, 255);
+}
